@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/board_border"
+    tools:context=".MainActivity">
+   <TextView
+       android:id="@+id/GameIntroLblb"
+       android:layout_width="wrap_content"
+       android:layout_height="200dp"
+       android:textSize="72dp"
+       android:text="BUGGY SUDOKU!"
+       android:textColor="#FFAB00"
+       android:textAlignment="center"
+       android:background="@drawable/board_border"
+       />
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="120dp"
+       android:background="#081028"
+       android:layout_margin="4dp"
+       />
+
+   <Button
+       android:id="@+id/EasyMoodBtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:textColor="#FFAB00"
+       android:textSize="48dp"
+       android:text="EASY"
+       android:textStyle="italic"
+       android:background="@drawable/board_border"
+       />
+   <Button
+       android:id="@+id/MediumMoodBtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:textColor="#FFAB00"
+       android:textSize="48dp"
+       android:text="MEDIUM"
+       android:textStyle="italic"
+       android:background="@drawable/board_border"
+       />
+   <Button
+       android:id="@+id/HardMoodBtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:textColor="#FFAB00"
+       android:textSize="48dp"
+       android:text="HARD"
+       android:textStyle="italic"
+       android:background="@drawable/board_border"
+       />
+
+
+</LinearLayout>

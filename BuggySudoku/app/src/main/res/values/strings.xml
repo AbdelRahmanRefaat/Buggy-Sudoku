@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BuggySudoku</string>
+    <string name="unit_test">0</string>
+</resources>

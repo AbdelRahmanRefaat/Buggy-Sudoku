@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="buggyCellStyle">
+        <item name="android:layout_width">@dimen/BuggyWidth</item>
+        <item name="android:layout_height">@dimen/BuggyHeight</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">fill_horizontal</item>
+        <item name="android:textSize">@dimen/BuggyFontSize</item>
+        <item name="android:background">@drawable/buggy_cell_boarder</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:textColor">@color/buggy_cell_font_color</item>
+        <item name="android:text">@string/unit_test</item>
+
+    </style>
+
+
+</resources>
